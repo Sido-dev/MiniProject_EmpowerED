@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>EMpower-ED</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="fullpage.min.css"
+        integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="vid.css">
+    <script type="text/javascript" src="afterglow.min.js"></script>
+    
+</head>
+<body>
+
+	<nav id="web-navbar" class="nav-course navbar navbar-expand-lg navbar-dark fixed-top py-2">
+        <a class="navbar-brand" href="index.html"><img src="log2-0.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="course.html">Course</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ask-us.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ask-us.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<main>
+    <div class="jud-materi">
+        <h2>Sturdy Raw Material Material Video</h2>
+    </div>
+
+
+    <div class="video">
+    <h4>Introduction - Study Raw Material</h4>
+        
+        <iframe src="2eng3.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <!-- <label class="icon-label-right">
+            <i class="fas fa-download right"></i>
+        </label>
+        <label class="icon-label-left">
+            <i class="fas fa-thumbs-up left"><span class="icon-des">20k</span></i>
+            <i class="fas fa-thumbs-down left"><span class="icon-des">1</span></i>
+        </label> -->
+    </div>
+
+
+    <div class="cont-materi1">
+        <div class="judul">
+            <h2>Material Description</h2>
+        </div>
+        <p><span>its a 2nd satndard english video</span><span>"</span></p>
+    </div>
+    
+   
+    <div class="cont-materi2">
+        <div class="judul">
+            <h2>give your previous review</h2>
+        
+             <div class="form-group">
+                
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 40%; height: 200px; margin-top: 20px;" placeholder="Yuk Kritikan Kami"></textarea>
+             </div>
+        </div>
+            <div class="container">
+      <div class="post">
+        <div class="text">
+Thanks for rating us!</div>
+<div class="edit">
+EDIT</div>
+</div>
+<div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+          <header></header>
+
+    </div>
+</main>
+
+     <footer id="footer">
+        <div class="icon">
+            <a target="_blank" href="mailto: edukas1.startup@gmail.com">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x white"></i>
+                </span>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/edukas1/">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x white"></i>
+                </span>
+            </a>
+            <a target="_blank" href="https://twitter.com/S1Eduka">
+                <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x white"></i>
+                </span>
+            </a>
+        </div>
+        <p>EMpower-ED &copy; 2024. All rights reserved.</p>
+    </footer>
+
+
+<script>
+      const btn = document.querySelector("button");
+      const post = document.querySelector(".post");
+      const widget = document.querySelector(".star-widget");
+      const editBtn = document.querySelector(".edit");
+      btn.onclick = ()=>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = ()=>{
+          widget.style.display = "block";
+          post.style.display = "none";
+        }
+        return false;
+      }
+    </script>
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/9fb210ee5d.js" crossorigin="anonymous"></script>
+    <script src="js/course.js"></script>
+
+</body>
+</html>
