@@ -39,7 +39,7 @@ Receive guidance through mentorship and support
 /database   → Content storage (Google Drive integration)  
 🧪 Installation & Setup
 # Clone the repository
-git clone https://github.com/your-username/empower-ed.git
+git clone https://github.com/Sido-dev/MiniProject_EmpowerED
 
 # Open project folder
 cd empower-ed
